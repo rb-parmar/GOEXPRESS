@@ -92,13 +92,13 @@ figure img {
 }
 
 figure img {
-  animation: animate 1s ease-in-out;
+  animation: animate 2s ease-in-out;
 }
 
 @keyframes animate {
-  0% {  opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {  opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 .hero-flex div {
@@ -179,6 +179,10 @@ button {
   font-weight: 300;
 }
 
+.customer {
+  height: 250px;
+}
+
 .customer h3 {
   color: #fff;
   text-align: center;
@@ -211,3 +215,40 @@ button {
   color: var(--app-lighter-orange);
 }
 
+.linear {
+  background-image: linear-gradient(to bottom, var(--app-medium-blue), var(--app-dark-blue) );
+}
+
+.map {
+  height: 500px;
+  display: grid;
+  place-items: center;
+}
+
+.map h3 {
+  color: #fff;
+  font-size: 26px;
+  margin-top: 20px;
+}
+#mapbox {
+  height: 400px;
+  width: 90%;
+  background-color: var(--app-dark-blue);
+  position: relative;
+  margin-inline: auto;
+}
+
+.icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  height: 40px;
+  width: 40px;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 22px;
+  color: rgb(0, 153, 255);
+  cursor: pointer;
+}

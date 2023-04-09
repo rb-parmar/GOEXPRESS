@@ -10,8 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="shortcut icon" href="./assests/image/diamond.png" type="image/x-icon">
     <link rel="stylesheet" href="./assests/style/index.css" media="all">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
     <script src="./assests/script/index.js" defer></script>
   </head>
   <body>
@@ -105,9 +108,12 @@
         </div>
       </section>
 
-      <section class="map">
-        <div id="map">
-
+      <section class="linear">
+        <div class="container map">
+          <h3>TRACK TO YOUR LOCATION</h3>
+          <div id="mapbox">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+          </div>
         </div>
       </section>
     </main>
