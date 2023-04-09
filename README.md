@@ -1,3 +1,3 @@
 ## GOEXPRESS
 
-Click [here]() to view my GOEXPRESS website
+Click [here](https://rb-parmar.github.io/GOEXPRESS/) to view my GOEXPRESS website
