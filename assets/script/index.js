@@ -12,7 +12,7 @@ let slides = ['food1.jpg', 'food2.jpg', 'food3.jpg'];
 let start = 0;
 function slider() {
     start < slides.length ? start = start + 1  :  start = 1; 
-    figure.innerHTML = "<img src=" + "./assests/image/" + slides[start-1] + ">";
+    figure.innerHTML = "<img src=" + "./assets/image/" + slides[start-1] + ">";
 }
 setInterval(slider,2000)
 
@@ -25,8 +25,7 @@ function makeMap(longitude, latitude) {
         container: 'mapbox',
         style: 'mapbox://styles/mapbox/streets-v12',
         center: [longitude, latitude],
-        zoom: 17,
-        pitch: 15
+        zoom: 15,
     });
 
     new mapboxgl.Marker()

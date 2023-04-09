@@ -252,3 +252,14 @@ button {
   color: rgb(0, 153, 255);
   cursor: pointer;
 }
+
+footer {
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-top: var(--app-medium-blue) 1px solid
+}
+
+footer p {
+  color: #fff;
+}
